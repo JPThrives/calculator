@@ -1,3 +1,7 @@
+let firstOIperand = '';
+let secondOperand = '';
+let currentOperation = null;
+
 function add(a,b) {
     return a + b;
 }
@@ -13,8 +17,6 @@ function multiply(a,b) {
 function divide(a,b) {
     return a / b;
 }
-
-console.log(add(5,3));
 
 function operate(operator,a,b) {
 
